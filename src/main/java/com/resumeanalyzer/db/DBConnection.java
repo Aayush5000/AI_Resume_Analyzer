@@ -18,7 +18,6 @@ public class DBConnection {
             initializeDatabase();
         } catch (ClassNotFoundException e) {
             System.err.println("JDBC Driver class not found: " + e.getMessage());
-            System.out.println("Please ensure the MySQL Connector/J library is included in the classpath.");
         }
     }
 
